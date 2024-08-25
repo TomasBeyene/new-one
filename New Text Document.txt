@@ -1,0 +1,5 @@
+wmic qfe get hotfixid
+wmic qfe list full /format table
+
+
+dism /Online /Add-Package /PackagePath:"PATH\TO\CAB"
